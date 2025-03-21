@@ -61,6 +61,15 @@
                                                 RC(3,3)     RC(3,4)         RC(3,5)     RC(3,6)
         >;
     };
+    display: display@0 {
+        compatible = "zmk,display";
+        display-height = <32>;
+        display-width = <128>;
+        label = "NiceView";
+        display-x = <0>;
+        display-y = <0>;
+        display-rotation = <0>;
+    };
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
