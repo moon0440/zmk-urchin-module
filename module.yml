@@ -1,5 +1,7 @@
-name: zmk-urchin-module
+name: zmk-keyboard-module
 build:
   cmake-ext: true
   kconfig-ext: true
+settings:
+  board_root: .
 
