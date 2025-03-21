@@ -1,3 +1,4 @@
+name: zmk-urchin-module
 build:
   cmake-ext: true
   kconfig-ext: true
